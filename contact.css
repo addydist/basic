@@ -1,0 +1,30 @@
+.con-content{
+    display: flex;
+    height: 50vh;
+    position:relative;
+    padding: 5px;
+    font-weight: bolder;
+  }
+ .con-content::after{
+    content: "";
+    background-image: url(../img/images.jpg);
+    position: absolute;
+    display: inherit;
+    width: 99%;
+    height: 97%;
+    border-radius: 10px;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .con-content-left{
+    margin: 1px;
+    font-family: 'Raleway', sans-serif;
+    width: 120%;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .h2{
+    margin: 13px;
+  }

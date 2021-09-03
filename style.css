@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  font-family: "Baloo Tamma 2", cursive;
+  
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  height: 100%;
+  position:relative;
+
+  padding: 5px;
+}
+.content::after{
+  content: "";
+  background-image: url(../img/bac.jpg);
+
+  position: absolute;
+  display: inherit;
+  width: 99%;
+  height: 97%;
+  border-radius: 10px;
+  opacity: 0.3;
+}
+.content-left{
+  font-family: 'Raleway', sans-serif;
+  width: 120%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-right{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.content-right img{
+  height: 71%;
+  width: 253px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 66px;
+}
+.footer {
+  background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 36px;
+}
+.footer p{
+  color: rgb(253, 254, 255);
+
+}
+.footer a{
+  color: rgb(253, 254, 255);
+
+}
+.home-articles{
+  position: relative;
+}
+  
+
+
+.home-article{
+  background-color: rgb(224, 184, 219);
+  padding: 28px;
+  display: flex;
+  
+}
+.nav-left {
+  font-size: 36px;
+  display: flex;
+}
+.nav-left span{
+  font-weight:bolder;
+  height: -1px;
+}
+.nav-left ul li {
+  font-size: 14px;
+  margin: -1px 20px;
+
+  font-weight: bold;
+  list-style: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-left ul {
+  margin: 16px;
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.text-input {
+  border: 2px solid #2b2121;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+  font-family: monospace;
+}
+.nav-left ul li a:hover{
+  color: rgb(118, 238, 154);
+  font-weight: 500px;
+}
+.font1{
+  font-family: 'Saira Condensed', sans-serif;
+}
+.font2{
+  font-family: 'Saira Condensed', sans-serif;
+}
+.home-article-img img{
+  height: 256px;
+}
+.home-article-right{
+  align-self: center;
+  padding: 0 25px;
+}
+.home-article-right a{
+  text-decoration: none;
+  color: var(--main-bg-color);
+}
+.logo{
+  height: 89px;
+  width: 89px;
+  border-radius: 58px;
+}
+.year-box{
+  height: 102px;
+  position: absolute;
+  width: 190px;
+  top: -312px;
+  right: -48px;
+  
+}
+.form-box input,textarea{
+  width: 461px;
+  margin: 2px;
+  padding: 2px;
+  font-size: 10px;
+  border-radius: 7px;
+  border: 1px solid lightyellow;
+
+}

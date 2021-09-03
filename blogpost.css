@@ -1,0 +1,38 @@
+
+.post-image{
+    height: 284px;
+    overflow: hidden;
+}
+.post-image img{
+    width: 95%;
+    margin: 46px;
+  }
+  .blog-content p{
+      font-family:  -webkit-pictograph;
+      background-color:beige ;
+
+  }
+  .blog-content h2{
+      text-align: center;
+      color:tan;
+  }
+  .row{
+      display: flex;
+  }
+  .blog-meta{
+      
+      display: flex;
+      justify-content: space-between;
+  }
+  .author{
+      padding: -1px 12px;
+      margin: 14px 0;
+      font-family: sans-serif;
+  }
+  .ti{
+    background: black;
+    background: radius 3px;
+  }
+  .social{
+      padding: 15px;
+  }
